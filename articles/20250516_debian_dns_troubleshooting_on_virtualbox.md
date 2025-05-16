@@ -3,7 +3,7 @@ title: "大学内で設定したVirtualBox上のDebianが大学外だとネッ�
 emoji: "🛜"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["debian", "virtualbox", "dns"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -128,14 +128,14 @@ nameserver 10.0.2.3
 もう一度`google.com`にpingを打ってみる．
 ```bash
 $ ping -c3 google.com
-PING google.com (172.217.175.238) 56(84) bytes of data.
-64 bytes from nrt12s29-in-f14.1e100.net (172.217.175.238): icmp_seq=1 ttl=255 time=28.5 ms
-64 bytes from nrt12s29-in-f14.1e100.net (172.217.175.238): icmp_seq=2 ttl=255 time=68.0 ms
-64 bytes from nrt12s29-in-f14.1e100.net (172.217.175.238): icmp_seq=3 ttl=255 time=93.7 ms
+PING google.com (142.250.206.206) 56(84) bytes of data.
+64 bytes from kix07s07-in-f14.1e100.net (142.250.206.206): icmp_seq=1 ttl=255 time=11.5 ms
+64 bytes from kix07s07-in-f14.1e100.net (142.250.206.206): icmp_seq=2 ttl=255 time=15.6 ms
+64 bytes from kix07s07-in-f14.1e100.net (142.250.206.206): icmp_seq=3 ttl=255 time=14.2 ms
 
 --- google.com ping statistics ---
-3 packets transmitted, 3 received, 0% packet loss, time 2023ms
-rtt min/avg/max/mdev = 28.467/63.367/93.652/26.811 ms
+3 packets transmitted, 3 received, 0% packet loss, time 2005ms
+rtt min/avg/max/mdev = 11.532/13.764/15.573/1.676 ms
 ```
 無事名前解決ができて疎通確認ができた！
 
