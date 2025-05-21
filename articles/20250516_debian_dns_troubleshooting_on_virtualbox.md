@@ -95,7 +95,7 @@ iface enp0s3 inet dhcp
 
 次に，ネットワークインタフェースを再起動します．
 ```bash
-sudo ifdown enp0s3 && sudo ifup enp0s3
+$ sudo ifdown enp0s3 && sudo ifup enp0s3
 ```
 
 おそらくこれでDNS設定が書き換わるはずです．DNSの設定を改めて確認します．  
