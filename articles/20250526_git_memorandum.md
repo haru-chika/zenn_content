@@ -400,7 +400,7 @@ VScodeを使っている場合，上に`Accept Current Cange`, `Accept Incomming
 
 簡単にfetchとpullの説明を．  
 - fetch: リモートリポジトリの内容をローカルにもってくる．まだローカルのブランチにmergeはされていない．  
-- pull: リモートリポジトリの内容をローカルのブランチにマージする．
+- pull: リモートリポジトリの内容をローカルのブランチにmergeする(fetch + merge)．
 
 fetchとpullについては，個人的に以下の記事がわかりやすかったです．
 
