@@ -3,7 +3,7 @@ title: "【備忘録】Gitの初期設定から基本的な操作までのコマ
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["git", "github", "備忘録"]
-published: false
+published: true
 ---
 
 ## はじめに
