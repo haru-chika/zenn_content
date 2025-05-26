@@ -368,7 +368,7 @@ $ git config --global push.autoSetupRemote true
 
 ### 作成したブランチの編集内容を他のブランチにmergeする
 
-マージされる側にブランチを切り替え(`git checkout`)し，以下のコマンドを打つとmergeできます．
+merge(マージ)される側にブランチを切り替え(`git checkout`)し，以下のコマンドを打つとmergeできます．
 
 ```bash
 $ git merge <マージするブランチ>
